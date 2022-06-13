@@ -43,8 +43,8 @@ if (stickerpack.spackname == '') {
   var sticker_name = '.'
   var sticker_author = '☂︎ LORDsumei\n\ntemukan informasi mengenai bot di @sumei.gt\n⫹⫺ LORDsumei'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = '.'
+  var sticker_author = '☂︎ LORDsumei\n\ntemukan informasi mengenai bot di @sumei.gt\n⫹⫺ LORDsumei '
 }
 
 const file_exif = "lib/exif.json"
@@ -56,8 +56,8 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = sticker_name
-global.author = sticker_author
+global.packname = '.'
+global.author = '☂︎ LORDsumei\n\ntemukan informasi mengenai bot di @sumei.gt\n⫹⫺ LORDsumei '
 global.wm = '                「 SUMEI BOT あ⁩ 」'
 
 global.multiplier = 39 // The higher, The harder levelup
