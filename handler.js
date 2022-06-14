@@ -531,6 +531,7 @@ module.exports = {
                     if (!('viewonce' in chat)) chat.viewonce = false
                     if (!('useDocument' in chat)) chat.useDocument = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
+                    if (!('simi' in chat)) chat.simi = false
                     if (!isNumber(chat.expired)) chat.expired = 0
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
@@ -547,6 +548,7 @@ module.exports = {
                     viewonce: false,
                     useDocument: false,
                     antiToxic: false,
+                    simi: false,
                     expired: 0,
                 }
             } catch (e) {
