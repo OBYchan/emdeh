@@ -10,7 +10,7 @@ let handler = async (m, { conn, args, usedPrefix, isOwner }) => {
         if (new Date - global.db.data.users[m.sender].judilast > 5000) {
         global.db.data.users[m.sender].judilast = new Date * 1
         let randomaku = `${Math.floor(Math.random() * 101)}`.trim()
-        let randomkamu = `${Math.floor(Math.random() * 75)}`.trim()                //hehe Biar Susah Menang :v
+        let randomkamu = `${Math.floor(Math.random() * 65)}`.trim()                //hehe Biar Susah Menang :v
         let Aku = (randomaku * 1)
         let Kamu = (randomkamu * 1)
         let count = args[0]
