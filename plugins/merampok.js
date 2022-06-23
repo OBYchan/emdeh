@@ -21,9 +21,9 @@ let nomors = m.sender
 
 }else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`, m)
 }
-handler.help = ['merampok *@tag*']
+handler.help = ['curi *@tag*']
 handler.tags = ['rpg']
-handler.command = /^merampok$/
+handler.command = /^curi$/
 handler.limit = true
 handler.group = true
 
